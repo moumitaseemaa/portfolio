@@ -20,7 +20,7 @@ const About = () => {
             <div className="relative">
               <Heading
                 title={"About Me"}
-                className="text-black/90 lg:before:left-25  before:left-[50%]"
+                className="text-black/90 lg:before:left-19  before:left-[50%] before:w-[155px]"
               />
             </div>
             <p className="text-base font-normal leading-6 text-black/80 w-auto lg:max-w-146 mx-auto">

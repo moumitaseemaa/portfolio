@@ -33,7 +33,7 @@ const Blogs = () => {
         <div className="relative">
           <Heading
             title={"Lastest Blogs"}
-            className={"text-center text-black/90 before:left-[50%] "}
+            className={"text-center text-black/90 before:left-[50%] before:w-[235px] "}
           />
         </div>
         <div className=" flex justify-center">

@@ -11,7 +11,7 @@ const ContactInfoLink = () => {
 
   return (
     <div className="space-y-6 w-full sm:w-[40%] mt-6 sm:mt-0">
-      <h2 className="text-[17px] sm:text-xl font-bold text-white/80">
+      <h2 className="text-[17px] sm:text-lg font-bold text-white/80">
         Contact Info.
       </h2>
 

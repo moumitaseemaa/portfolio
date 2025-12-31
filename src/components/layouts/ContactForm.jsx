@@ -1,7 +1,7 @@
 const ContactForm = () => {
   return (
     <div className="sm:w-[60%]">
-      <h2 className="text-[17px] sm:text-xl font-bold mb-5.5 text-white/80">
+      <h2 className="text-[17px] sm:text-lg font-bold mb-5.5 text-white/80">
         Send Your Message
       </h2>
       <form className="space-y-4">

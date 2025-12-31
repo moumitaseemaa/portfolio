@@ -39,7 +39,7 @@ const Protfolio = () => {
         <div className="relative">
           <Heading
             title={"Protfolio"}
-            className={"text-center text-black/90 before:left-[50%] "}
+            className={"text-center text-black/90 before:left-[50%] before:w-[160px] "}
           />
         </div>
         <div className=" flex justify-center">

@@ -6,11 +6,11 @@ import ContactInfoLink from "./layouts/ContactInfoLink";
 const Contact = () => {
   return (
     <section id="contact" className="bg-primary z-50">
-      <Container className="topBottomPadding resTopBottomPadding px-4 xl:px-0">
+      <Container className="resTopBottomPadding sm:!pt-[110px] sm:!pb-18  px-4 xl:px-0">
         <div className="relative">
           <Heading
             title={"Contact Me"}
-            className={"text-center text-white/90 before:left-[50%] "}
+            className={"text-center text-white/90 before:left-[50%] before:w-[200px] "}
           />
         </div>
         <div className=" flex justify-center">
