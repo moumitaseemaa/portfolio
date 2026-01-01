@@ -15,7 +15,7 @@ const ContactForm = () => {
         ></textarea>
         <button
           type="submit"
-          className="buttonStyle bg-violet-500 border-transparent text-black "
+          className="buttonStyle bg-violet-500 hover:bg-violet-600 border-transparent text-black "
         >
           Submit Now
         </button>

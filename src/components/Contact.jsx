@@ -10,7 +10,9 @@ const Contact = () => {
         <div className="relative">
           <Heading
             title={"Contact Me"}
-            className={"text-center text-white/90 before:left-[50%] before:w-[200px] "}
+            className={
+              "text-center text-white/90 before:left-[50%] before:w-[200px] "
+            }
           />
         </div>
         <div className=" flex justify-center">

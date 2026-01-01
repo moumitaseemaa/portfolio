@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const ProjectCard = ({ image, title, description, github, demo }) => {
   return (
-    <div className="bg-[#f1f1f1] rounded-xl shadow-md hover:shadow-xl transition duration-200 overflow-hidden flex flex-col border-3 border-gray-400 ">
+    <div className="bg-[#f1f1f1] rounded-xl  hover:shadow-xl transition duration-200 overflow-hidden flex flex-col border-2 border-violet-400 ">
       {/* Image */}
       <Link to={demo || github} target="_blank" className="block p-6">
         <img
@@ -23,9 +23,9 @@ const ProjectCard = ({ image, title, description, github, demo }) => {
           <Link
             to={demo || github}
             target="_blank"
-            className="text-[15px] flex items-center gap-1 text-gray-600 hover:text-gray-900 hover:underline decoration-2"
+            className="text-[15px] flex items-center gap-1 text-gray-600 hover:text-violet-900"
           >
-            Live Demo <FiExternalLink size={16} />
+            Live View <FiExternalLink size={16} />
           </Link>
         </div>
 
@@ -38,9 +38,9 @@ const ProjectCard = ({ image, title, description, github, demo }) => {
           <Link
             to={github}
             target="_blank"
-            className="inline-block buttonStyle bg-violet-500  border-transparent text-black hover:underline decoration-2"
+            className="inline-block buttonStyle bg-violet-500  border-transparent text-black hover:bg-violet-600"
           >
-            View Source Code
+           Github Link
           </Link>
         </div>
       </div>

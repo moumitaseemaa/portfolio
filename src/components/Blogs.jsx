@@ -22,7 +22,7 @@ const Blogs = () => {
       id: 3,
       title: "What is MERN Stack & 10 Why We Should Learn MERN Stack?",
       image:
-        "https://miro.medium.com/v2/resize:fit:720/format:webp/1*YQ7FjlNouzQL77U15uXBlA.png",
+        "https://miro.medium.com/v2/resize:fit:4800/format:webp/1*616mOIFqnFln32elPrPQjQ.png",
       link: "https://medium.com/@moumitaseemaa/what-is-mern-stack-10-crucial-reasons-why-we-should-learn-mern-stack-497c1241d7dc",
     },
   ];
@@ -33,7 +33,9 @@ const Blogs = () => {
         <div className="relative">
           <Heading
             title={"Lastest Blogs"}
-            className={"text-center text-black/90 before:left-[50%] before:w-[235px] "}
+            className={
+              "text-center text-black/90 before:left-[50%] before:w-[235px] "
+            }
           />
         </div>
         <div className=" flex justify-center">
