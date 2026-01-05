@@ -1,6 +1,7 @@
 import Container from "./layouts/Container";
 import bannerImage from "../assets/images/bannerImage.png";
 import Heading from "./layouts/Heading";
+import { Link } from "react-router-dom";
 
 const About = () => {
   return (
@@ -45,14 +46,20 @@ const About = () => {
               </span>
             </p>
 
-            <div className="flex justify-center lg:justify-start">
+            <Link
+              to={
+                "https://drive.google.com/file/d/15ry6Oot0dbglG_DPlP-h6dvTtQlwgzIu/view?usp=sharing"
+              }
+              target="_blank"
+              className="flex justify-center lg:justify-start"
+            >
               <button
-                type="submit"
+                type="button"
                 className="buttonStyle bg-violet-500 border-transparent text-black hover:bg-violet-600 hover:text-black"
               >
-                Download Resume
+                My Resume
               </button>
-            </div>
+            </Link>
           </div>
         </div>
       </Container>
