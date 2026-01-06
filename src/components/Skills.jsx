@@ -34,10 +34,10 @@ const Skills = () => {
         </div>
 
         <div className="flex justify-center items-center gap-8 flex-wrap px-12 mt-[-16px] sm:mt-0 ">
-          <SkillIcon Language={"HTML5"} SkillIcon={HTML5Icon} />
+          {/* <SkillIcon Language={"HTML5"} SkillIcon={HTML5Icon} /> */}
           <SkillIcon Language={"CSS3"} SkillIcon={CSS3Icon} />
           <SkillIcon Language={"JavaScript"} SkillIcon={JSIcon} />
-          {/* <SkillIcon Language={"TypeScript"} SkillIcon={TyoescriptIcon} /> */}
+          <SkillIcon Language={"TypeScript"} SkillIcon={TyoescriptIcon} />
           <SkillIcon Language={"React JS"} SkillIcon={ReactIcon} />
           <SkillIcon Language={"Next JS"} SkillIcon={NextjsIcon} />
           <SkillIcon Language={"Bootstrap"} SkillIcon={BootstrapIcon} />
