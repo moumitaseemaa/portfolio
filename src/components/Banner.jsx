@@ -12,7 +12,7 @@ const Banner = () => {
               I'm Moumita Seema
             </h1>
             <p className="bannerPara sm:max-w-[400px] text-base text-white/80 font-normal sm:leading-8 leading-6 mt-3 sm:mt-6 mb-6 mx-auto">
-              Enthusiastic MERN Stack Developer turning ideas into scalable,
+              Enthusiastic Frontend Developer turning ideas into scalable,
               production-ready web applications.
             </p>
             <div className="flex justify-center lg:justify-start">

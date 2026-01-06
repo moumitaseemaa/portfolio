@@ -26,7 +26,7 @@ const About = () => {
             </div>
             <p className="text-base font-normal leading-6 text-black/80 w-auto lg:max-w-146 mx-auto">
               <span className="inline-block mt-6 mb-6">
-                I’m an enthusiastic MERN Stack Developer with a strong eye for
+                I’m an enthusiastic Frontend Developer with a strong eye for
                 design and a deep love for clean, efficient code. I enjoy
                 turning ideas into real, user-friendly digital experiences where
                 both performance and visual detail matter.
