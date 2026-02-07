@@ -48,7 +48,7 @@ const About = () => {
 
             <Link
               to={
-                "https://drive.google.com/file/d/15ry6Oot0dbglG_DPlP-h6dvTtQlwgzIu/view?usp=sharing"
+                "https://drive.google.com/file/d/1TuqiQ03AQXoTFMfp6b9K6vSUMFj-EAso/view?usp=drive_link"
               }
               target="_blank"
               className="flex justify-center lg:justify-start"
